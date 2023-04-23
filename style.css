@@ -44,3 +44,11 @@
     color: #fff;
     border-radius: 0.5em;
 }
+#para{
+    text-align: justify;
+    color: #6E7886;
+    line-height: 1.8em;
+}
+br{
+    content: "" !important;
+}
