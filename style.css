@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    padding: 10px 70px;
+}
 .app-titel{
     background-color: #0C1222;
     padding: 1em 0;
@@ -19,7 +22,7 @@
     color: #38BDF8;
 }
 .input-wrapper{
-    font-size: 1.2em;
+    font-size: 16px;
     width: 17em;
     position: relative;
     margin: auto;
@@ -42,7 +45,9 @@
     border: none;
     outline: none;
     color: #fff;
-    border-radius: 0.5em;
+    border-radius: 14px 4px 14px;
+    cursor: pointer;
+
 }
 #para{
     text-align: justify;
@@ -51,4 +56,6 @@
 }
 br{
     content: "" !important;
+    display: block !important;
+    display: block !important;
 }

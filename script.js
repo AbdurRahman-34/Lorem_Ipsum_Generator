@@ -18,5 +18,14 @@ let generateParas = () => {
         paraDisplay.innerText = data.text;
     })
 }
+
+//implement Function to copy:::
+copyBtn.addEventListener("click", () => {
+    navigator.clipboard.writeText(paraDisplay.innerText);
+    alert("Text copied to clipboard");
+})
+
 generateBtn.addEventListener("click", generateParas);
 window.addEventListener("load", generateParas)
+
+
